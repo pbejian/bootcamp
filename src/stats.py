@@ -10,3 +10,9 @@ def mediane(L):
 def moyenne(L):
     """Renvoie la moyenne d'une liste de nombres non vide."""
     return sum(L) / len(L)
+
+
+def ecart_type(L):
+    """Renvoie l'écart-type d'une liste de nombres non vide."""
+    m = moyenne(L)
+    return (sum((x - m) ** 2 for x in L) / len(L)) ** 0.5
