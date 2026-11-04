@@ -1,0 +1,10 @@
+[project]
+name = "bootcamp"
+version = "0.1.0"
+description = "Exercices du bootcamp Data Analyst (Wild Code School)"
+readme = "README.md"
+authors = [
+    { name = "Pierre Bejian", email = "300942012+pbejian@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
