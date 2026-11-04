@@ -5,3 +5,8 @@ def mediane(L):
     if n % 2 == 1:
         return T[n // 2]
     return (T[n // 2 - 1] + T[n // 2]) / 2
+
+
+def moyenne(L):
+    """Renvoie la moyenne d'une liste de nombres non vide."""
+    return sum(L) / len(L)
